@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+:root {
+    font-family: 'Gotham', sans-serif;
+    font-size: 14px;
+    line-height: 150%;
+    word-spacing: 1.5px;
+}
+
+/* 1. Navbar */
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 320px;
+    width: 60%;
+    margin: 0 auto;
+    font-weight: 900;
+}
+.menu, .account {
+    display: flex;
+    align-items: center;
+}
+.icon-1 {
+    height: 1.6em;
+    width: auto;
+    margin: 0 10px;
+}
+.logo-x-small {
+    height: 2.5em;
+    width: auto;
+    margin: 5px auto;
+}
+
+/* 2. Part 1 */
+.part-1 {
+    min-height: 80vh;
+    height: max-content;
+    padding-top: 65px;
+    background-image: url(../assets/bg/nuages-jour-3.jpg);
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.part-1-items {
+    max-width: 1000px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.logo-large {
+    height: auto;
+    width: 45%;
+    min-width: 240px;
+    margin: 0 20px 50px 20px;
+}
+.paragraph-1 {
+    flex: 1;
+    min-width: 280px;
+    margin: 0 20px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.title-1 {
+    font-size: 3em;
+    font-weight: lighter;
+    line-height: 110%;
+}
+.text-1 {
+    font-size: 0.8em;
+    margin: 10px 0 20px 0;
+}
+.but-1 {
+    height: 37.5px;
+    width: 150px;
+    background-color: #3397da;
+    border: none;
+    border-radius: 2px;
+    color: white;
+}
+
+.part-2 {
+    padding: 45px 0 45px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.part-2-items {
+    max-width: 1000px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.paragraph-1-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.text-1-1 {
+    width: 75%;
+    min-width: 280px;
+}
+.img-1 {
+    height: auto;
+    width: 40%;
+    min-width: 290px;
+    margin-bottom: 45px;
+}
+
+.part-3 {
+    background-color: rgba(37,53,89,255);
+    color: white;
+    height: max-content;
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.part-3-test {
+    max-width: 920px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.part-3-items {
+    width: 310px;
+    display: flex;
+}
+.paragraph-2 {
+    flex: ;
+}
+.subtitle-1 {
+    font-size: 1em;
+    font-weight: lighter;
+    line-height: 110%;
+}
+.text-2 {
+    font-size: 0.8em;
+}
+.paragraph-2 {
+    flex: 1;
+}
